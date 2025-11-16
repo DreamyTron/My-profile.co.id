@@ -7,8 +7,8 @@
 body {
     font-family: 'Poppins', sans-serif;
     line-height: 1.6;
-    color: #333;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: #f5f5f5;
+    background: linear-gradient(70deg, #f5f5f5 0%, #010B13 100%);
     min-height: 100vh;
 }
 
@@ -19,7 +19,7 @@ body {
 }
 
 header {
-    background: #00B9E8;
+    background: #000000;
     padding: 20px 0;
     position: fixed;
     width: 100%;
@@ -31,7 +31,7 @@ header {
 header h1 {
     font-size: 2rem;
     font-weight: 600;
-    color: #667eea;
+    color: #f5f5f5;
 }
 
 header nav {
@@ -41,7 +41,7 @@ header nav {
 }
 
 header button {
-    background: #00B9E8;
+    background: #000000;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -52,23 +52,25 @@ header button {
 }
 
 header button:hover {
-    background: #5a67d8;
+    background: #f5f5f5;
+    color: #000000;
 }
 
 .section {
-    padding: 100px 0 50px;
-    background: white;
+    padding: 130px 0 50px;
+    background: #000000;
     margin-top: 80px;
 }
 
 .section:nth-child(even) {
-    background: #f9f9f9;
+    background: #000000;
 }
 
 .section h2 {
-    font-size: 2.5rem;
+    font-size: 3rem;
     margin-bottom: 20px;
-    color: #667eea;
+    color: #000000;
+    -webkit-text-stroke: 1px #f5f5f5;
     text-align: center;
 }
 
@@ -79,7 +81,7 @@ header button:hover {
     width: 200px;
     height: 200px;
     object-fit: cover;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border: 5px solid #f5f5f5;
 }
 
 .skills-list {
@@ -91,7 +93,7 @@ header button:hover {
 }
 
 .skills-list li {
-    background: #667eea;
+    background: #000000;
     color: white;
     padding: 15px 30px;
     border-radius: 25px;
@@ -101,6 +103,8 @@ header button:hover {
 
 .skills-list li:hover {
     transform: translateY(-5px);
+    background: #f5f5f5;
+    color: #000000;
 }
 
 footer {
